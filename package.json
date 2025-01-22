@@ -1,0 +1,20 @@
+{
+  "name": "boiler.dev",
+  "version": "0.0.1",
+  "description": "CMD application for boiler-plate",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json}\"",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  }
+}
